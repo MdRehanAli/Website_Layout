@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Collection</title>
+
+    <script src="https://kit.fontawesome.com/62445b34d6.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 5vw;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        }
+
+        .split img {
+            width: 90%;
+
+        }
+
+        .split {
+            border: 2px solid gold;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fa-star {
+            color: gold;
+
+        }
+
+        @media screen and (max-width: 576px) {
+            .content {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .split {
+                border: 3px solid red;
+            }
+        }
+
+        @media screen and (min-width: 577px) and (max-width: 992px) {
+            .content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .split {
+                border: 3px solid green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Popular Collection
+    </h1>
+
+    <section>
+        <div class="content">
+            <!-- .split*12>img[src="popular/$.jpg"]+h3{New Collection 1}+h3{$10}+p{Rating}+p{Brand: Puma}+p{Black $}+p{Made in Bangladesh} -->
+            <div class="split">
+                <img src="popular/1.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>110</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 1</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/2.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>210</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 2</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/3.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>310</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 3</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/4.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>410</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 4</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/5.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>510</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 5</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/6.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>610</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 6</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/7.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>710</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 7</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/8.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>810</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 8</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/9.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>910</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 9</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/10.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>1010</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 10</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/11.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>1110</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 11</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+            <div class="split">
+                <img src="popular/12.jpg" alt="">
+                <div class="details">
+                    <h3>New Collection 1</h3>
+                    <h3>1210</h3>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>Brand: Puma</p>
+                    <p>Black 12</p>
+                    <p>Made in Bangladesh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
